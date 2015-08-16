@@ -15,7 +15,7 @@ TGGGAACCTGCGGGCAGTAGGTGGAAT
 
 def fasta_simple_reader(fd):
     """
-    Generates fasta data in tuple fomrat.
+    Generates fasta data in tuple format. First element is header without > , second is list of strings
 
     Does not concat strings
     Removes white space
