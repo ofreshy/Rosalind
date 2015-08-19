@@ -63,5 +63,5 @@ UGG W      CGG R      AGG R      GGG G"""
 coded = "AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA"
 decoded = ''
 
-traL =  string.split()
+traL = string.split()
 traDict = dict(zip(traL[0::2], traL[1::2]))

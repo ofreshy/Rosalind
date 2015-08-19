@@ -58,6 +58,17 @@ ATGGCACT
 sol = solve(data)
 
 
+def main():
+    with open("/Users/osharabi/Downloads/rosalind_cons.txt") as f:
+        solve(f.read())
+
+if __name__ == '__main__':
+    # main()
+    pass
+
+
+
+
 
 
 
